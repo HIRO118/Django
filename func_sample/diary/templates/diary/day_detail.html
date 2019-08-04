@@ -1,0 +1,23 @@
+{% extends 'diary/base.html' %}
+
+{% block title %}
+日記帳削除
+{% endblock %}
+
+{% block content %}
+   <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th>タイトル</th>
+        <th>{{day.title}}</th>
+      </tr>
+      <tr>
+        <th>本文</th>
+        <th>{{day.text | linebreaksbr | urlize}}</th>
+      </tr>
+      <tr>
+        <th>日付</th>
+        <th>{{day.date}}</th>
+      </tr>
+    </table>
+{% endblock %}
