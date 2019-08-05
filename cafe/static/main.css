@@ -1,0 +1,12 @@
+.title{
+  margin-top:10%;
+  font-family: 'Blinker', sans-serif;
+  font-weight:bolder;
+  font-size:30px;
+  text-align:center;
+  color:rgb(255,255,255);
+  position:absolute;
+  top:30%;
+  left:70%;
+  text-transform: uppercase;
+}
